@@ -1,0 +1,64 @@
+body {
+    text-align: center;
+}
+
+
+.hide{
+  visibility:hidden;
+  display: none;
+}
+
+
+.modalBackground{
+  position: absolute;;
+  top:0;
+  left:0;
+  height: 100%;
+  width: 100%
+  background:#9fa4c4;
+}
+
+
+.modalBody{
+  position:fixed;
+  top: 50%;
+  left:50%;
+  background-color: white;
+  transform : translate(-50%, -100%);
+
+}
+
+
+.modalHeading{
+  wwidth: 600px;
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  padding: 26px;
+  border-bottom: 1px solid white;
+  background:white;
+}
+
+
+.modalFacts{
+  display: flex;
+  justify-content: space-between;
+  flex-flow: column;
+  align-items: center;
+  padding: inherit;
+}
+
+
+.replayButtom{
+  width: 60px;
+  height: 30px;
+  background-color: lightgrey;
+}
+
+
+.modalButtons{
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+  padding: 24px;
+}
